@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: rgba(0, 0, 0, 0.3);
+    min-width: 600px;
+    min-height: 30%;
+}
+.input {
+    color: antiquewhite;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: large;
+    margin-top: 10%;
+    border-color: rgb(199, 196, 193);
+    opacity: 40%;
+    min-width: 50%;
+}
+#sign-in {
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-weight: 400;
+    font-size: 150%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+#button {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10%;
+    border-radius: 12px;
+    border-color: rgb(30, 135, 213);
+    background-color: rgb(30, 135, 213);
+    color: rgb(255, 255, 255);
+    min-width: 30%;
+    min-height: 20%;
+    box-shadow: none;
+}
